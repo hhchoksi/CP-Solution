@@ -18,9 +18,7 @@ int main(){
         }
         else{
             res+=((v[i+1]-v[i])*p1);
-            c res<<endl;
             ans = v[i+2]-v[i+1];
-            c ans<<endl;
             if(ans>=t1){
                 res+=(t1*p1);
                 ans-=t1;
