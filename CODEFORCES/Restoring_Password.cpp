@@ -14,7 +14,6 @@ int main(){
     }
     for(int i=0;i<8;i++){
         ll b = n.substr(a,10);
-        map.find(b);
         a+=10;
         cout<<map[b];
     }
