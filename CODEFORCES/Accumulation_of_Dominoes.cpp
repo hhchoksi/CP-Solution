@@ -5,12 +5,12 @@ using namespace std;
 int main(){
     ll n,m;
     cin>>n>>m;
-    if(m>n){
-        ll ans = n*(m-1);
+    if(m==1){
+        ll ans = n-1;
         cout<<ans;
     }
     else{
-        ll ans = (n-1)*m;
+        ll ans = (m-1)*n;
         cout<<ans;
     }
     return 0;
